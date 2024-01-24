@@ -16,7 +16,7 @@ app.get('/api/v1/products',(req,res)=>{
 
         message: "Product fetched successfully",
 
-        data:products
+        data:{products}
     });
     
 })
